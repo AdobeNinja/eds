@@ -14,7 +14,7 @@ main .hero-container {
 
 .hero h1 {
   max-width: 1200px;
-  margin-left: 800px;
+  margin-left: 100px;
   margin-right: auto;
   color: white;
 }
