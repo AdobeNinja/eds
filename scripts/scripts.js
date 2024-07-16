@@ -76,8 +76,7 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
-  /* Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet */
-  <link rel="preload" fetchpriority="high" as="image" href="https://main--eds--adobeninja.hlx.live/media_1bee04d9abe2b1b2fc9fbe5f4c590b0d0dbbd2262.jpeg" type="image/webp">
+
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
